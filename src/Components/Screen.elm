@@ -21,7 +21,9 @@ size =
 
 velocity : Float
 velocity =
-    0.015
+    -- 0.015
+    -- disable the black
+    0
 
 
 velocityIncrement : Float
