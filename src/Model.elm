@@ -215,7 +215,7 @@ start model =
         | state = Playing
         , components = Components.initial
         , systems = Systems.initial
-        , lives = 3
+        , lives = 1
         , score = 0
       }
     , Cmd.batch [ play "action", play "theme" ]
