@@ -56,11 +56,11 @@ run elapsed components screens_ =
         ( Components.addScreen
             newTransform
             screens_.direction
-            newDirection
+            Bottom
             newNumber
             newComponents
         , { screens_
-            | direction = newDirection
+            | direction = Bottom
             , seed = newSeed
             , number = newNumber
             , transform = newTransform
